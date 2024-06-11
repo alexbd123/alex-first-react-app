@@ -1,15 +1,14 @@
 import React from 'react'
 import './style.css'
-import Title from "./Title.jsx"
-import MainContent from './MainContent.jsx'
-import Footer from './Footer.jsx'
+import Title from "./components/Title.jsx"
+import MainContent from './components/MainContent.jsx'
+import Footer from './components/Footer.jsx'
 
 
 function TributePage() {
   return (
     <div>
       <Title />
-      <img className="img" src="src/assets/sofiane-pamart.jpg"/>
       <MainContent />
       <br></br>
       <Footer />
